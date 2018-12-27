@@ -70,7 +70,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="logo" href="index.html"><img alt="" src="images/logo.png"></a>
+                            <a class="logo" href="index.php"><img alt="" src="images/logo.png"></a>
                         </div>
 
                         <div class="navbar-collapse collapse">
@@ -91,6 +91,7 @@
                                     if($_SESSION)
                                     {
                                       echo $_SESSION["email"];
+                                      echo "<br/>";
                                       echo '<a href="logout.php">
                                       <button type="button" class="btn btn-success" data-target="#mymodal" data-toggle="modal" style="font-weight: bold;font-size: 14px !important;">
                                             Logout
@@ -290,16 +291,16 @@ else {
                     <div class="row clearfix">
 
                         <div class="col-md-6 col-sm-12">
-                            <p class="copyright-text"> Copyright- NSU-327 Project @ 2018, Blood Donation Center. </p>
+                            <p class="copyright-text"> Copyright- @ 2018, Blood Donation Center. All rights reserved </p>
 
-                        </div>  
+                        </div>  <!-- end .col-sm-6  --> 
 
                         <div class="col-md-6 col-sm-12 text-right">
                             <div class="footer-nav">
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
                                         <li>
                                             <a href="#">Causes</a>
@@ -314,7 +315,7 @@ else {
                                             <a href="campaign-grid.html">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="contact.php">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>

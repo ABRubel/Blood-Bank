@@ -95,6 +95,7 @@
                                     if($_SESSION)
                                     {
                                       echo $_SESSION["email"];
+                                      echo "<br/>";
                                       echo '<a href="logout.php">
                                       <button type="button" class="btn btn-success" data-target="#mymodal" data-toggle="modal" style="font-weight: bold;font-size: 14px !important;">
                                             Logout
@@ -120,8 +121,11 @@
 
         </header> <!-- end main-header  -->
 
-       
+<br/>
+<br/>  
+
 <h1 align="center">Our Donar List</h1>
+<br/>  
 
 <div class="container">
 <table class="table table-dark">
@@ -195,6 +199,10 @@ echo  "</tr>";
 </tbody>
 </table>
 </div>
+<br/>  
+<br/>  
+<br/>  
+
  <!-- HIGHLIGHT CTA  -->   
 
         <section class="cta-section-1">
@@ -290,11 +298,11 @@ echo  "</tr>";
 
                                     <div class="textwidget">                                       
 
-                                        <i class="fa fa-envelope-o fa-contact"></i> <p><a href="#">monir.hossain@northsouth.edu</a><br/><a href="#"></a></p>
+                                        <i class="fa fa-envelope-o fa-contact"></i> <p><a href="#">abdur.rahaman.ewu082@gmail.com</a><br/><a href="#"></a></p>
 
-                                        <i class="fa fa-location-arrow fa-contact"></i> <p>Road-2,3/A Bashundhara<br/>Dhaka-1200, Bangladesh</p>
+                                        <i class="fa fa-location-arrow fa-contact"></i> <p>Kalachandpur, Gulshan-2<br/>Dhaka-1212, Bangladesh</p>
 
-                                        <i class="fa fa-phone fa-contact"></i> <p>Office:&nbsp; (+880) 1760 905 299<br/>Cell:&nbsp; (+880) 0723 161 343</p>                              
+                                        <i class="fa fa-phone fa-contact"></i> <p>Cell:&nbsp; (+880) 01623993016</p>                              
 
                                     </div>
 
@@ -319,7 +327,7 @@ echo  "</tr>";
                     <div class="row clearfix">
 
                         <div class="col-md-6 col-sm-12">
-                            <p class="copyright-text"> Copyright- NSU-327 Project @ 2018, Blood Donation Center. </p>
+                            <p class="copyright-text"> Copyright- @ 2018, Blood Donation Center. All rights reserved </p>
 
                         </div>  <!-- end .col-sm-6  -->
 
@@ -328,7 +336,7 @@ echo  "</tr>";
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
                                         <li>
                                             <a href="#">Causes</a>
@@ -343,7 +351,7 @@ echo  "</tr>";
                                             <a href="campaign-grid.html">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="contact.php">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
